@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abbe Hyde - lets find out</title>
+    <title>Abbe Hyde - Product Manager</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         }
         .container {
             max-width: 800px;
@@ -29,16 +33,27 @@
         .header h1 {
             margin: 0;
             font-size: 2.5em;
+            font-family: 'Lobster', cursive;
+            color: #333;
         }
         .header p, .contact-info p {
             margin: 5px 0;
             font-size: 1.2em;
             color: #555;
         }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
         .section h2 {
-            border-bottom: 2px solid #000;
+            border-bottom: 2px solid #3498db;
             padding-bottom: 5px;
             margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #333;
         }
         .columns {
             display: flex;
@@ -53,6 +68,16 @@
         }
         ul li {
             margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: #3498db;
         }
         .section {
             padding: 10px;
@@ -73,7 +98,7 @@
     <div class="container">
         <div class="header">
             <h1>Abbe Hyde</h1>
-            <p>figuring it out</p>
+            <p>Pfiguring it out</p>
         </div>
         <div class="contact-info">
             <p>Email: <a href="mailto:abbedirect@gmail.com">abbedirect@gmail.com</a></p>
@@ -81,7 +106,7 @@
         </div>
         <div class="about section">
             <h2>About Me</h2>
-            <p>I am a founder, technologist, and researcher with a deep passion for biotechnology and innovation. I bring a unique blend of technical expertise, strategic vision, and hands-on leadership experience. My journey from academia to founding and scaling startups has equipped me with the skills to excel as ???. I thrive in dynamic environments where I can leverage my background to drive product development and deliver impactful solutions.</p>
+            <p>I am a founder, technologist, and researcher with a deep passion for biotechnology and innovation. I bring a unique blend of technical expertise, strategic vision, and hands-on leadership experience. My journey from academia to founding and scaling startups has equipped me with the skills to excel as a ???. I thrive in dynamic environments where I can leverage my background to drive product development and deliver impactful solutions.</p>
         </div>
         <div class="columns">
             <div class="column">
@@ -179,4 +204,5 @@
     </div>
 </body>
 </html>
+
 
