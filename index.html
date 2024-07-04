@@ -69,14 +69,17 @@
         ul li {
             margin-bottom: 10px;
             position: relative;
-            padding-left: 30px;
+            padding-left: 35px; /* Adjusted padding for better spacing */
         }
         ul li::before {
             position: absolute;
             left: 0;
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%);
             font-family: "Font Awesome 6 Free";
             font-weight: 900;
             color: #3498db;
+            font-size: 1.2em; /* Adjust icon size if needed */
         }
         ul.skills li::before {
             content: "\f054"; /* Arrow Right */
@@ -109,7 +112,7 @@
     <div class="container">
         <div class="header">
             <h1>Abbe Hyde</h1>
-            <p>figuring it out ...</p>
+            <p>it me</p>
         </div>
         <div class="contact-info">
             <p>Email: <a href="mailto:abbedirect@gmail.com">abbedirect@gmail.com</a></p>
@@ -117,7 +120,7 @@
         </div>
         <div class="about section">
             <h2>About Me</h2>
-            <p>I am a founder, technologist, and researcher with a deep passion for biotechnology and innovation. I bring a unique blend of technical expertise, strategic vision, and hands-on leadership experience. My journey from academia to founding and scaling startups has equipped me with the skills to excel as a ???. I thrive in dynamic environments where I can leverage my background to drive product development and deliver impactful solutions.</p>
+            <p>I am a founder, technologist, and researcher with a deep passion for biotechnology and innovation. I bring a unique blend of technical expertise, strategic vision, and hands-on leadership experience. My journey from academia to founding and scaling startups has equipped me with the skills to excel as a (insert opportunity here). I thrive in dynamic environments where I can leverage my background to drive product development and deliver impactful solutions.</p>
         </div>
         <div class="columns">
             <div class="column">
@@ -215,6 +218,7 @@
     </div>
 </body>
 </html>
+
 
 
 
